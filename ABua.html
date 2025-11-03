@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abua-Odual Local Government Area</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Leaflet Map CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+
+<body>
+  <!-- Top Info Bar -->
+  <!-- Top Info Bar -->
+<div class="topbar">
+  <div class="container topbar-content">
+    <span>Official Website of Abua-Odual Local Government Area, Rivers State</span>
+    <div class="topbar-right">
+      <span><i class="fas fa-envelope"></i> info@abuaodual.gov.ng</span>
+      <span><i class="fas fa-clock"></i> Mon - Fri | 8am - 6pm</span>
+    </div>
+  </div>
+</div>
+
+<!-- Main Header Section -->
+<header id="main-header">
+  <div class="container header-flex">
+    <div class="header-left">
+      <img src="logo.jpeg" alt="Abua-Odual Logo" class="logo-img">
+      <div class="header-text">
+        <h3>THE OFFICIAL WEBSITE OF</h3>
+        <h1>ABUA-ODUAL LOCAL GOVERNMENT</h1>
+        <p>Rivers State, Nigeria</p>
+      </div>
+    </div>
+    <div class="header-right">
+      <div class="office-hours">
+        <i class="fas fa-clock"></i> <strong>Office Hours</strong><br>
+        Mon - Fri | 8am - 6pm
+      </div>
+      <div class="language-select">
+        <select>
+          <option value="en">English</option>
+          <option value="ig">Igbo</option>
+          <option value="yo">Yoruba</option>
+          <option value="ha">Hausa</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Navigation Bar -->
+<nav id="navbar">
+  <div class="container nav-container">
+    <ul class="nav-menu">
+      <li><a href="#home" class="active">HOME</a></li>
+      <li class="dropdown">
+        <a href="#about" class="dropbtn">ABOUT ABUA-ODUAL 
+          <span class="arrow">&#9662;</span>
+        </a>
+        <ul class="dropdown-content">
+          <li><a href="#history">Our History</a></li>
+          <li><a href="#government">The Local Government</a></li>
+          <li><a href="#rulers">Traditional Rulers</a></li>
+        </ul>
+      </li>
+      <li><a href="#agenda">COUNCIL PERSONNELS</a></li>
+      <li><a href="#departments">PROJECTS & NEWS</a></li>
+      <li><a href="#news">JOB OPPORTUNITY DESK</a></li>
+      <li><a href="#contact">CONTACT US</a></li>
+    </ul>
+    <button id="nav-toggle">&#9776;</button>
+  </div>
+</nav>      
+             
+      <button id="nav-toggle">&#9776;</button>
+    </div>
+  </header>
+
+  <!-- Hero Slider -->
+  <section id="home" class="hero-slider">
+    <div class="slide active" style="background-image: url('images3.jpg');">
+      <div class="overlay"></div>
+      <div class="hero-text">
+        <h1>We Are the Industrial Hub of Rivers State</h1>
+        <p>Building a prosperous, sustainable, and united Abua-Odual.</p>
+      </div>
+    </div>
+    <div class="slide" style="background-image: url('Images2.jpg');">
+      <div class="overlay"></div>
+      <div class="hero-text">
+        <h1>Together for Growth and Development</h1>
+        <p>Empowering our communities through good governance.</p>
+      </div>
+    </div>
+    <div class="slide" style="background-image: url('Images1.jpg');">
+      <div class="overlay"></div>
+      <div class="hero-text">
+        <h1>Service, Transparency, and Progress</h1>
+        <p>Our mission is to serve every citizen with integrity and vision.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Services -->
+  <section class="services fade-in">
+    <div class="container grid">
+      <div class="card green">
+        <h3>Speak to Us</h3>
+        <p>Let’s build together. Your voice matters.</p>
+        <a href="#contact" class="btn white-btn">Get in Touch</a>
+      </div>
+      <div class="card gold">
+        <h3>Employment Opportunities</h3>
+        <p>Explore available opportunities within the LGA.</p>
+        <a href="#jobs" class="btn white-btn">Apply Now</a>
+      </div>
+      <div class="card red">
+        <h3>Business Directory</h3>
+        <p>Register your business in Abua Odual LGA.</p>
+        <a href="#" class="btn white-btn">Access Portal</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chairman’s Welcome -->
+  <section id="about" class="about fade-in">
+    <div class="container chairman-flex">
+      <div class="chairman-text">
+        <h2>Chairman's Welcome</h2>
+        <p>
+          I am honored to welcome you to the official website of Abua Odual Local Government,
+          the largest and most dynamic local government in Rivers State. As the proud Chairman,
+          I extend my warmest greetings to residents, investors, and visitors alike.
+        </p>
+        <p>
+          Abua Odual is not just a local government; it is a thriving hub of diversity and opportunity.
+          Home to the prestigious zone, our community stands at the forefront of industrialization,
+          hosting giants like the Dangote Refinery. We take pride in being the engine that drives the
+          economic growth of Rivers State.
+        </p>
+        <p>
+          Beyond industry, Abua Odual is a beacon for real estate investors seeking promising opportunities.
+          Our landscape is dotted with developments that promise not just financial returns but a chance to
+          be part of a community that is writing the future.
+        </p>
+        <p>
+          For those seeking relaxation, our shores boast numerous beaches and resort centers, offering a
+          perfect blend of tranquility and leisure. Abua Odual is not just where business thrives; it’s
+          where you can find solace and rejuvenation.
+        </p>
+        <p>
+          On this, our official website, you will be able to explore our ongoing projects, learn about our
+          community initiatives, and stay updated on the latest developments. We are committed to transparency,
+          community engagement, and the overall well-being of our residents.
+        </p>
+        <p>
+          As we navigate the challenges and opportunities that lie ahead, I invite you to join us on this
+          exciting journey. Whether you are a resident, investor, or visitor, Abua Odual welcomes you with
+          open arms.
+        </p>
+        <p>Thank you for being part of our story.</p>
+      </div>
+      <div class="chairman-photo">
+        <img src="Chairman.jpg" alt="Chairman Abua-Odual">
+        <h4>HON. ENGR. OWOLABI MICHAEL OFORI</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Agenda -->
+  <section id="agenda" class="agenda">
+    <div class="agenda-overlay">
+      <div class="agenda-text">
+        <h2>OUR 4 CARDINAL AGENDA</h2>
+        <h3>Infrastructure • Local Economy • Social Development • Security & Environment</h3>
+        <p>Our dedication is firmly rooted in the comprehensive advancement of Abua-Odual, guided by our 4 Cardinal Agenda: Infrastructural Development, Strengthening the Local Economy, Enhancing Social Services (Education, Health, and Social Interventions), and Promoting Security and Environmental Sustainability. Through these strategic pillars, we aim to cater to the varied necessities of our community, ensuring the well-being of our residents and fostering the collective progress of Abua-Odual..</p>
+        <a href="#contact" class="btn">Get Involved</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Departments -->
+  <section id="departments" class="departments fade-in">
+    <div class="container">
+      <h2>Our Departments</h2>
+      <div class="grid">
+        <div class="card"><h3>Health & Sanitation</h3><p>Promoting quality healthcare and hygiene.</p></div>
+        <div class="card"><h3>Education</h3><p>Supporting access to education and youth empowerment.</p></div>
+        <div class="card"><h3>Agriculture</h3><p>Encouraging sustainable farming and agribusiness.</p></div>
+        <div class="card"><h3>Works & Infrastructure</h3><p>Improving roads and public facilities.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- News -->
+  <section id="news" class="news fade-in">
+    <div class="container">
+      <h2>News & Updates</h2>
+      <div class="news-grid">
+        <article class="news-item">
+          <img src="images/news1.jpg" alt="News 1">
+          <h3>Rural Road Construction Begins</h3>
+          <p>Flag-off ceremony for the construction of rural roads to improve connectivity.</p>
+        </article>
+        <article class="news-item">
+          <img src="images/news2.jpg" alt="News 2">
+          <h3>Healthcare Outreach</h3>
+          <p>New health initiatives aimed at improving primary healthcare services.</p>
+        </article>
+        <article class="news-item">
+          <img src="images/news3.jpg" alt="News 3">
+          <h3>Youth Empowerment Program</h3>
+          <p>Training young people with skills and opportunities for self-reliance.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+    <!-- Projects Section -->
+  <section id="projects" class="projects fade-in">
+    <div class="container">
+      <h2>PROJECTS</h2>
+      <p class="project-intro">
+        Empowering Ibejulekki through transformative projects—building a sustainable, vibrant community for a better tomorrow.
+      </p>
+
+      <div class="project-gallery">
+        <div class="project-item">
+          <img src="images/project1.jpg" alt="Project 1">
+          <p class="date">November 3, 2025</p>
+        </div>
+
+        <div class="project-item">
+          <img src="images/project2.jpg" alt="Project 2">
+          <p class="date">November 3, 2025</p>
+        </div>
+
+        <div class="project-item">
+          <img src="images/project3.jpg" alt="Project 3">
+          <p class="date">October 31, 2025</p>
+        </div>
+
+        <div class="project-item">
+          <img src="images/project4.jpg" alt="Project 4">
+          <p class="date">October 29, 2025</p>
+        </div>
+
+        <div class="project-item">
+          <img src="images/project5.jpg" alt="Project 5">
+          <p class="date">October 29, 2025</p>
+        </div>
+
+        <div class="project-item">
+          <img src="images/project6.jpg" alt="Project 6">
+          <p class="date">October 24, 2025</p>
+        </div>
+
+        <div class="project-item">
+          <img src="images/project7.jpg" alt="Project 7">
+          <p class="date">October 23, 2025</p>
+        </div>
+
+        <div class="project-item">
+          <img src="images/project8.jpg" alt="Project 8">
+          <p class="date">October 22, 2025</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 🌍 Map of Abua Odual LGA -->
+  <section id="map" class="fade-in">
+    <div class="container">
+      <h2>Map of Abua Odual LGA</h2>
+      <div id="abuaMap" style="height: 400px; width: 100%; border-radius: 10px;"></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <!-- Contact -->
+<section id="contact">
+  <h2>Contact Us</h2>
+  <div class="contact-grid">
+    <!-- LEFT COLUMN -->
+    <div class="contact-left">
+      <div class="contact-info">
+        <h3>Who We Are</h3>
+        <p>Abua Odual Local Government Council is a vibrant and dynamic administrative unit nestled within the heart of Rivers, Nigeria. With a commitment to fostering community development and enhancing the quality of life for our residents, we take pride in being a catalyst for positive change.</p>
+      </div>
+      <div class="contact-links">
+        <h3>Web Links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Departments</a></li>
+          <li><a href="#">News</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- MIDDLE COLUMN -->
+    <div class="contact-center">
+      <div class="council-personnel">
+        <h3>Council Personnel</h3>
+        <ul>
+          <li><a href="#management" class="council-link">The Management</a></li>
+          <li><a href="#executive-arm" class="council-link">Executive Arm</a></li>
+          <li><a href="#legislative-arm" class="council-link">Legislative Arm</a></li>
+        </ul>
+      </div>
+
+      <div class="socials">
+        <h3>Follow Us</h3>
+        <div class="follow-us">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="contact-right">
+      <div class="contact-form">
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <textarea id="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Abua-Odual Local Government Area. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
